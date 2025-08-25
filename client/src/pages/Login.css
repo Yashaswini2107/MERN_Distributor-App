@@ -1,0 +1,89 @@
+/* Container styling */
+.login-container {
+  max-width: 380px;
+  margin: 60px auto;
+  padding: 32px 24px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.login-container h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333333;
+  font-weight: 600;
+}
+
+/* Form inputs */
+.login-container input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-size: 14px;
+}
+
+.login-container input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Labels */
+.login-container label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Button */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.login-container button:hover {
+  background-color: #357ABD;
+  transform: translateY(-1px);
+}
+
+.login-container button:disabled {
+  background-color: #a0c4ff;
+  cursor: not-allowed;
+}
+
+/* Error message */
+.login-container p.error {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+/* Tip text */
+.login-container p.tip {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+}
+
+.login-container code {
+  background-color: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
